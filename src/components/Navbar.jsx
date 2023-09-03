@@ -13,7 +13,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center p-1">
         <NavLink className="text-xl font-bold" to="/home">
           Dog Bikes
-        </NavLink>~
+        </NavLink>
         <div className="md:hidden fl" onClick={handleMenuToggle}>
           <svg
             className="w-6 h-6 cursor-pointer"
