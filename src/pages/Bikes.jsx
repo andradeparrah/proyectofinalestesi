@@ -25,14 +25,14 @@ export const Bikes = () => {
               "$1.000.000"
             }
           />
-                    <Card
+                    {/* <Card
             titulo={"Cannondale"}
             img="public/assets/images/bike3.jpeg"
             descripcion={"BICICLETA CANNONDALE 700 TOPSTONE 4 2023"}
             price={
               "$800.000"
             }
-          />
+          /> */}
                     <Card
             titulo={"Cannondale"}
             img="public/assets/images/bike5.jpeg"
