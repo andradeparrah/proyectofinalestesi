@@ -8,12 +8,16 @@ export const HomePage = () => {
   return (
     <>
       { (state?.user) 
-        ? (<h2>Bienvenido {state.user.username}</h2>)
-        : (<h2>Bienvenido registrate o inicia sesión</h2>)
+        ? (<h2>Bienvenido al mundo de los veloces {state.user.username}</h2>)
+        : (<h2>Bienvenido</h2>)
       }
-      <img className="h-96" src="public/assets/images/mtb5.jpeg" alt="" />
-      <img src="public/assets/images/mtb2.jpeg" alt="" />
-      <hr />
+      <section className="p-10">
+      <img className="rounded-full md: " src="/assets/images/mtb.png" alt="" />
+      <p className="text-red-600">hola</p>
+      </section>
     </>
   );
 };
+
+
+

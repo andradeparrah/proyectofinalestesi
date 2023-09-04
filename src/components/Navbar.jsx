@@ -14,7 +14,7 @@ export const Navbar = () => {
         <NavLink className="text-xl font-bold" to="/home">
           Dog Bikes
         </NavLink>
-        <div className="md:hidden fl" onClick={handleMenuToggle}>
+        <div className="md:hidden" onClick={handleMenuToggle}>
           <svg
             className="w-6 h-6 cursor-pointer"
             fill="none"
@@ -28,7 +28,7 @@ export const Navbar = () => {
           </svg>
         </div>
       </div>
-      <div className={`${menuOpen ? "block" : "hidden"} md:flex p-2 bg-white`}>
+      <div className={`${menuOpen ? "block" : "hidden"} md:flex p-2 bg-white md:space-x-4`}>
         <NavLink className="flex py-2" to="/accessories">
           Accesorios
         </NavLink>
@@ -41,7 +41,6 @@ export const Navbar = () => {
         <NavLink className="flex py-2" to="/login">Login</NavLink>
         <NavLink className="flex py-2" to="/cartpage">
           <img className="h-10 py-2" src="public/assets/images/bag.png" alt="" />
-          
         </NavLink>
       </div>
     </div>

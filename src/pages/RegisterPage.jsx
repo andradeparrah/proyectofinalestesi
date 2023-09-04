@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useContext } from "react"
 import axios from "axios"
 import jwt from "jwt-decode"
-import { types } from "../context/user/userReducer.js"
+import { types } from "../context/user/userReducer"
 import { UserContext } from "../context/user/userContext"
 
 export const RegisterPage = () => {
@@ -26,7 +26,7 @@ export const RegisterPage = () => {
   const handleSubmit = async(e) => {
     e.preventDefault()
    try {
-      const { data } = await axios.post("https://backend5-petq.onrender.com/users", formUser, {
+      const { data } = await axios.post("https://backend5-petq.onrender.com/users/register", formUser, {
         headers: {
           "Content-Type": "application/json"
         }
@@ -54,7 +54,7 @@ export const RegisterPage = () => {
         <input type="email" id="email" name="email" onChange={handleChange}/>
         <label htmlFor="password">Password</label>
         <input type="password" id="password" name="password" onChange={handleChange}/>
-        <button type="submit">Login</button>
+        <button type="submit">Register</button>
       </form>
     </>
   )
