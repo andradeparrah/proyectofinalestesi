@@ -27,7 +27,7 @@ export const LoginPage = () => {
   const handleSubmit = async(e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post('https://backend5-petq.onrender.com//users/login', user, {
+      const { data } = await axios.post('https://backend5-petq.onrender.com/users/login', user, {
         headers: {
           'Content-Type': 'application/json',
         },
