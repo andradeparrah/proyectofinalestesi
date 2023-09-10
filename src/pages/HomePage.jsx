@@ -1,4 +1,6 @@
+'use client';
 import { useContext } from "react";
+import DefaultCarousel from '../components/Carousel';
 import { UserContext } from "../context/user/userContext";
 
 export const HomePage = () => {
@@ -7,16 +9,13 @@ export const HomePage = () => {
   console.log(state)
   return (
     <>
-        <h1>
-      Hello world!
-    </h1>
+    
       { (state?.user) 
-        ? (<h2>Bienvenido al mundo de los veloces {state.user.username}</h2>)
-        : (<h2>Bienvenido</h2>)
+        ? (<h2 className="text-center">Bienvenido al mundo de los veloces {state.user.username}</h2>)
+        : (<h2 className="text-center">Bienvenido</h2>)
       }
-      <section className="p-10">
-      <img className="rounded-full md: " src="/assets/images/mtb.png" alt="" />
-      <p className="text-red-600">hola</p>
+      <section className="">
+      <div className='py-32 w-full h-96 rounded-full'><DefaultCarousel/></div>
       </section>
     </>
   );

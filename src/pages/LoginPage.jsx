@@ -51,18 +51,19 @@ export const LoginPage = () => {
 
   return (
     <>
-      <h1>LoginPage</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" onChange={handleChange} />
-        <label htmlFor="password">Password</label>
+      <h1 className='text-center py-4'>Ingresar</h1>
+      <form className='flex flex-col space-y-4 mx-12 my-8' onSubmit={handleSubmit}>
+        <label className='text-center text-xs' htmlFor="email">E-mail</label>
+        <input className="rounded-lg" type="email" id="email" name="email" onChange={handleChange} />
+        <label className='text-center text-xs' htmlFor="password">Contraseña</label>
         <input
+          className="rounded-lg"
           type="password"
           id="password"
           name="password"
           onChange={handleChange}
         />
-        <button type="submit">Login</button>
+        <button className='text-white rounded-full p-2  bg-blue-500 hover:bg-blue-600 active:bg-blue-700 focus:outline-none focus:ring focus:ring-bluw-300' type="submit">Ingresa</button>
       </form>
     </>
   );

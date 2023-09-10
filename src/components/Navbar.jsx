@@ -36,9 +36,9 @@ export const Navbar = () => {
           Bicicletas
         </NavLink>
         <NavLink className="flex py-2" to="/register">
-          Register
+          Registrate
         </NavLink>
-        <NavLink className="flex py-2" to="/login">Login</NavLink>
+        <NavLink className="flex py-2" to="/login">Ingresa</NavLink>
         <NavLink className="flex py-2" to="/cartpage">
           <img className="h-10 py-2" src="public/assets/images/bag.png" alt="" />
         </NavLink>

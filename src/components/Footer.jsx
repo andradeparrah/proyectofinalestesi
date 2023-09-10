@@ -41,7 +41,7 @@ export const Footer = () => {
             )}
           </div>
         </div>
-<img className='' src="public/assets/images/mercadopago.png" alt="" />
+<img className='h-24 flex' src="public/assets/images/mercadopago.png" alt="" />
       </div>
     </footer>
   );
