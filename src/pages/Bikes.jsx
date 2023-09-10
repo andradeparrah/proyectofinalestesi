@@ -5,6 +5,7 @@ export const Bikes = () => {
 
   return (
     <>
+    <h1 className="text-4xl">hello</h1>
     <img className="" src="/assets/images/img3.avif" alt="bikes" />
     <h1 className="flex justify-center font-bold">Bicicletas de ruta</h1>
     <p className="bg-blend-color ">Ya sean en pasos ondulantes caminos de grava fuera de la ciudad, el paseo en el club de los sábados con amigos o los vientos cruzados de Farellones, nuestras bicicletas de ruta establecen el estándar por el que se miden todas las demás.</p>

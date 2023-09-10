@@ -7,6 +7,9 @@ export const HomePage = () => {
   console.log(state)
   return (
     <>
+        <h1>
+      Hello world!
+    </h1>
       { (state?.user) 
         ? (<h2>Bienvenido al mundo de los veloces {state.user.username}</h2>)
         : (<h2>Bienvenido</h2>)
