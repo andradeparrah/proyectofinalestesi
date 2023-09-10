@@ -3,8 +3,8 @@ import { Card } from "../components/Card"
 export const Accessories = () => {
   return (
     <div>
-        <img src="public/assets/images/img4.avif" alt="" />
-        <h1 className="text-4xl">Cascos</h1>
+        <h1 className="text-3xl flex justify-center font-bold">Cascos</h1>
+        <img className="p-2" src="public/assets/images/img4.avif" alt="" />
             <Card
             titulo={"Cannondale"}
             img="public/assets/images/helmet.jpeg"
@@ -12,6 +12,7 @@ export const Accessories = () => {
             price={
               "$800.000"
             }
+            agregar="Agregar"
           />                    <Card
           titulo={"Cannondale"}
           img="public/assets/images/helmet2.jpeg"
@@ -19,6 +20,7 @@ export const Accessories = () => {
           price={
             "$800.000"
           }
+          agregar="Agregar"
         />                    <Card
         titulo={"Cannondale"}
         img="public/assets/images/helmet3.jpeg"
@@ -26,6 +28,7 @@ export const Accessories = () => {
         price={
           "$800.000"
         }
+        agregar="Agregar"
       />                    <Card
       titulo={"Cannondale"}
       img="public/assets/images/helmet4.jpeg"
@@ -33,6 +36,7 @@ export const Accessories = () => {
       price={
         "$800.000"
       }
+      agregar="Agregar"
     />
     </div>
     

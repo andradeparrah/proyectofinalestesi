@@ -16,6 +16,9 @@ export const HomePage = () => {
       }
       <section className="">
       <div className='py-32 w-full h-96 rounded-full'><DefaultCarousel/></div>
+      <div>
+        <img src="" alt="" />
+      </div>
       </section>
     </>
   );

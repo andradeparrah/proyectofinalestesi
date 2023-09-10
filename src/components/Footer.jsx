@@ -15,7 +15,7 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="bg-black p-4 text-white">
+    <footer className="bg-black p-4 text-white text-center">
       <div className="">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-6 md:mb-0">
@@ -41,7 +41,7 @@ export const Footer = () => {
             )}
           </div>
         </div>
-<img className='h-24 flex' src="public/assets/images/mercadopago.png" alt="" />
+<img className='m-auto w-48 h-48' src="public/assets/images/mercadopago.png" alt="" />
       </div>
     </footer>
   );

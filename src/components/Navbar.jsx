@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <div className="bg-white text-black">
       <div className="flex justify-between items-center p-1">
-        <NavLink className="text-xl font-bold" to="/home">
+        <NavLink className="text-xl font-bold" to="/">
           Dog Bikes
         </NavLink>
         <div className="md:hidden" onClick={handleMenuToggle}>

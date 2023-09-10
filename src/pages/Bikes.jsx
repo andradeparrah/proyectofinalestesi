@@ -6,7 +6,7 @@ export const Bikes = () => {
   return (
     <>
     <h1 className="text-3xl flex justify-center font-bold">Bicicletas de ruta</h1>
-    <img className="p-2 rounded-sm" src="/assets/images/img3.avif" alt="bikes" />
+    <img className="p-2" src="/assets/images/img3.avif" alt="bikes" />
     <p className="p-6 text-center">Ya sean en pasos ondulantes caminos de grava fuera de la ciudad, el paseo en el club de los sábados con amigos o los vientos cruzados de Farellones, nuestras bicicletas de ruta establecen el estándar por el que se miden todas las demás.</p>
           <Card 
             titulo={"Cannondale"}
@@ -15,7 +15,7 @@ export const Bikes = () => {
             price={
               "$1.200.000"
             }
-            agregar="agregar"
+            agregar="Agregar" 
           />
                     <Card
             titulo={"Cannondale"}
@@ -24,8 +24,7 @@ export const Bikes = () => {
             price={
               "$1.000.000"
             }
-            agregar="agregar"
-            
+            agregar="Agregar"         
           />
                     <Card
             titulo={"Cannondale"}
@@ -34,7 +33,7 @@ export const Bikes = () => {
             price={
               "$800.000"
             }
-            agregar="agregar"
+            agregar="Agregar"
           />
                     <Card
             titulo={"Cannondale"}
@@ -43,7 +42,7 @@ export const Bikes = () => {
             price={
               "$500.000"
             }
-            agregar="agregar"
+            agregar="Agregar"
           />
                     <Card
             titulo={"Cannondale"}
@@ -52,7 +51,7 @@ export const Bikes = () => {
             price={
               "$460.000"
             }
-            agregar="agregar"
+            agregar="Agregar"
           />
     </>
   )
